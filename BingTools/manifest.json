@@ -5,7 +5,7 @@
   "description": "__MSG_extDescription__",
   "default_locale": "zh_CN",
   "author": "Bing Tools Team",
-  "homepage_url": "https://github.com/your-repo/bing-tools",
+  "homepage_url": "https://github.com/cycle0/chrome_extensions/tree/main/BingTools",
   
   "icons": {
     "16": "assets/icons/icon16.png",

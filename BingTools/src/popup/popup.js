@@ -68,7 +68,7 @@ class PopupManager {
     // GitHub链接
     this.elements.githubLink?.addEventListener('click', (e) => {
       e.preventDefault();
-      chrome.tabs.create({ url: 'https://github.com/your-repo/bing-tools' });
+      chrome.tabs.create({ url: 'https://github.com/cycle0/chrome_extensions/tree/main/BingTools' });
     });
   }
 
