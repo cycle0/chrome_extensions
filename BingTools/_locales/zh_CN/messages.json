@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Bing Tools",
+    "description": "扩展名称"
+  },
+  "extDescription": {
+    "message": "Bing图片下载与全屏工具 - 一键下载必应每日美图，支持背景全屏显示",
+    "description": "扩展描述"
+  },
+  "toggleFullscreen": {
+    "message": "开启背景全屏",
+    "description": "开启全屏按钮文本"
+  },
+  "exitFullscreen": {
+    "message": "退出背景全屏",
+    "description": "退出全屏按钮文本"
+  },
+  "exitAllFullscreen": {
+    "message": "退出全部全屏",
+    "description": "退出全部全屏按钮文本"
+  },
+  "downloadBtnText": {
+    "message": "下载今日必应图片",
+    "description": "下载按钮文本"
+  },
+  "settingsTitle": {
+    "message": "设置",
+    "description": "设置标题"
+  },
+  "fullscreenFeature": {
+    "message": "全屏模式",
+    "description": "全屏功能名称"
+  },
+  "fullscreenDesc": {
+    "message": "在页面显示背景全屏按钮",
+    "description": "全屏功能描述"
+  },
+  "downloadFeature": {
+    "message": "下载功能",
+    "description": "下载功能名称"
+  },
+  "downloadDesc": {
+    "message": "在页面显示图片下载按钮",
+    "description": "下载功能描述"
+  },
+  "imageResolution": {
+    "message": "图片分辨率",
+    "description": "分辨率设置"
+  },
+  "namingRules": {
+    "message": "命名规则",
+    "description": "命名规则设置"
+  },
+  "baseName": {
+    "message": "基础名称",
+    "description": "基础名称选项"
+  },
+  "dateInfo": {
+    "message": "日期信息",
+    "description": "日期信息选项"
+  },
+  "description": {
+    "message": "图片描述",
+    "description": "图片描述选项"
+  },
+  "copyright": {
+    "message": "版权信息",
+    "description": "版权信息选项"
+  },
+  "imgNO": {
+    "message": "图片编号",
+    "description": "图片编号选项"
+  },
+  "imgResolution": {
+    "message": "分辨率",
+    "description": "分辨率选项"
+  },
+  "separator": {
+    "message": "连接符",
+    "description": "连接符设置"
+  },
+  "save": {
+    "message": "保存",
+    "description": "保存按钮"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "取消按钮"
+  },
+  "reset": {
+    "message": "重置",
+    "description": "重置按钮"
+  },
+  "openSettings": {
+    "message": "打开设置",
+    "description": "打开设置按钮"
+  },
+  "refreshPage": {
+    "message": "刷新页面",
+    "description": "刷新页面按钮"
+  },
+  "features": {
+    "message": "功能开关",
+    "description": "功能开关区域标题"
+  },
+  "quickActions": {
+    "message": "快捷操作",
+    "description": "快捷操作区域标题"
+  },
+  "feedback": {
+    "message": "反馈问题",
+    "description": "反馈链接"
+  },
+  "loading": {
+    "message": "加载中...",
+    "description": "加载状态文本"
+  },
+  "downloadStarted": {
+    "message": "开始下载",
+    "description": "下载开始提示"
+  },
+  "downloadComplete": {
+    "message": "下载完成",
+    "description": "下载完成提示"
+  },
+  "errorDownload": {
+    "message": "下载失败，请重试",
+    "description": "下载错误提示"
+  },
+  "rightClickSettings": {
+    "message": "右键打开设置菜单",
+    "description": "右键提示"
+  }
+}

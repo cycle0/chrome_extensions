@@ -1,0 +1,66 @@
+{
+  "extName": {
+    "message": "Bing Tools",
+    "description": "확장 프로그램 이름"
+  },
+  "extDescription": {
+    "message": "Bing 이미지 다운로드 및 전체 화면 도구 - Bing 일일 배경화면을 한 번의 클릭으로 다운로드",
+    "description": "확장 프로그램 설명"
+  },
+  "toggleFullscreen": {
+    "message": "전체 화면 켜기",
+    "description": "전체 화면 버튼 텍스트"
+  },
+  "exitFullscreen": {
+    "message": "전체 화면 끄기",
+    "description": "전체 화면 종료 버튼 텍스트"
+  },
+  "exitAllFullscreen": {
+    "message": "모든 전체 화면 종료",
+    "description": "모든 전체 화면 종료 버튼 텍스트"
+  },
+  "downloadBtnText": {
+    "message": "오늘의 Bing 이미지 다운로드",
+    "description": "다운로드 버튼 텍스트"
+  },
+  "settingsTitle": {
+    "message": "설정",
+    "description": "설정 제목"
+  },
+  "fullscreenFeature": {
+    "message": "전체 화면 모드",
+    "description": "전체 화면 기능 이름"
+  },
+  "fullscreenDesc": {
+    "message": "페이지에 전체 화면 버튼 표시",
+    "description": "전체 화면 기능 설명"
+  },
+  "downloadFeature": {
+    "message": "다운로드 기능",
+    "description": "다운로드 기능 이름"
+  },
+  "downloadDesc": {
+    "message": "페이지에 이미지 다운로드 버튼 표시",
+    "description": "다운로드 기능 설명"
+  },
+  "save": {
+    "message": "저장",
+    "description": "저장 버튼"
+  },
+  "cancel": {
+    "message": "취소",
+    "description": "취소 버튼"
+  },
+  "reset": {
+    "message": "재설정",
+    "description": "재설정 버튼"
+  },
+  "features": {
+    "message": "기능 설정",
+    "description": "기능 설정 영역 제목"
+  },
+  "quickActions": {
+    "message": "빠른 작업",
+    "description": "빠른 작업 영역 제목"
+  }
+}

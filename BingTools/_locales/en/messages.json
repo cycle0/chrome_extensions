@@ -1,0 +1,134 @@
+{
+  "extName": {
+    "message": "Bing Tools",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Bing Image Download & Fullscreen Tool - Download daily Bing wallpapers with one click, support fullscreen background display",
+    "description": "Extension description"
+  },
+  "toggleFullscreen": {
+    "message": "Enable Fullscreen",
+    "description": "Enable fullscreen button text"
+  },
+  "exitFullscreen": {
+    "message": "Exit Fullscreen",
+    "description": "Exit fullscreen button text"
+  },
+  "exitAllFullscreen": {
+    "message": "Exit All Fullscreen",
+    "description": "Exit all fullscreen button text"
+  },
+  "downloadBtnText": {
+    "message": "Download Today's Bing Image",
+    "description": "Download button text"
+  },
+  "settingsTitle": {
+    "message": "Settings",
+    "description": "Settings title"
+  },
+  "fullscreenFeature": {
+    "message": "Fullscreen Mode",
+    "description": "Fullscreen feature name"
+  },
+  "fullscreenDesc": {
+    "message": "Show fullscreen button on page",
+    "description": "Fullscreen feature description"
+  },
+  "downloadFeature": {
+    "message": "Download Feature",
+    "description": "Download feature name"
+  },
+  "downloadDesc": {
+    "message": "Show image download button on page",
+    "description": "Download feature description"
+  },
+  "imageResolution": {
+    "message": "Image Resolution",
+    "description": "Resolution setting"
+  },
+  "namingRules": {
+    "message": "Naming Rules",
+    "description": "Naming rules setting"
+  },
+  "baseName": {
+    "message": "Base Name",
+    "description": "Base name option"
+  },
+  "dateInfo": {
+    "message": "Date Info",
+    "description": "Date info option"
+  },
+  "description": {
+    "message": "Description",
+    "description": "Description option"
+  },
+  "copyright": {
+    "message": "Copyright",
+    "description": "Copyright option"
+  },
+  "imgNO": {
+    "message": "Image Number",
+    "description": "Image number option"
+  },
+  "imgResolution": {
+    "message": "Resolution",
+    "description": "Resolution option"
+  },
+  "separator": {
+    "message": "Separator",
+    "description": "Separator setting"
+  },
+  "save": {
+    "message": "Save",
+    "description": "Save button"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Cancel button"
+  },
+  "reset": {
+    "message": "Reset",
+    "description": "Reset button"
+  },
+  "openSettings": {
+    "message": "Open Settings",
+    "description": "Open settings button"
+  },
+  "refreshPage": {
+    "message": "Refresh Page",
+    "description": "Refresh page button"
+  },
+  "features": {
+    "message": "Features",
+    "description": "Features section title"
+  },
+  "quickActions": {
+    "message": "Quick Actions",
+    "description": "Quick actions section title"
+  },
+  "feedback": {
+    "message": "Feedback",
+    "description": "Feedback link"
+  },
+  "loading": {
+    "message": "Loading...",
+    "description": "Loading text"
+  },
+  "downloadStarted": {
+    "message": "Download started",
+    "description": "Download started notification"
+  },
+  "downloadComplete": {
+    "message": "Download complete",
+    "description": "Download complete notification"
+  },
+  "errorDownload": {
+    "message": "Download failed, please try again",
+    "description": "Download error message"
+  },
+  "rightClickSettings": {
+    "message": "Right click to open settings",
+    "description": "Right click hint"
+  }
+}

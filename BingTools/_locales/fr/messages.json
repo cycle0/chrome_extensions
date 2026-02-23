@@ -1,0 +1,66 @@
+{
+  "extName": {
+    "message": "Bing Tools",
+    "description": "Nom de l'extension"
+  },
+  "extDescription": {
+    "message": "Outil de téléchargement et plein écran Bing - Téléchargez les fonds d'écran Bing quotidiens en un clic",
+    "description": "Description de l'extension"
+  },
+  "toggleFullscreen": {
+    "message": "Activer le plein écran",
+    "description": "Texte du bouton plein écran"
+  },
+  "exitFullscreen": {
+    "message": "Quitter le plein écran",
+    "description": "Texte du bouton quitter plein écran"
+  },
+  "exitAllFullscreen": {
+    "message": "Quitter tous les pleins écrans",
+    "description": "Texte du bouton quitter tous les pleins écrans"
+  },
+  "downloadBtnText": {
+    "message": "Télécharger l'image Bing du jour",
+    "description": "Texte du bouton de téléchargement"
+  },
+  "settingsTitle": {
+    "message": "Paramètres",
+    "description": "Titre des paramètres"
+  },
+  "fullscreenFeature": {
+    "message": "Mode plein écran",
+    "description": "Nom de la fonction plein écran"
+  },
+  "fullscreenDesc": {
+    "message": "Afficher le bouton plein écran sur la page",
+    "description": "Description de la fonction plein écran"
+  },
+  "downloadFeature": {
+    "message": "Fonction de téléchargement",
+    "description": "Nom de la fonction de téléchargement"
+  },
+  "downloadDesc": {
+    "message": "Afficher le bouton de téléchargement sur la page",
+    "description": "Description de la fonction de téléchargement"
+  },
+  "save": {
+    "message": "Enregistrer",
+    "description": "Bouton enregistrer"
+  },
+  "cancel": {
+    "message": "Annuler",
+    "description": "Bouton annuler"
+  },
+  "reset": {
+    "message": "Réinitialiser",
+    "description": "Bouton réinitialiser"
+  },
+  "features": {
+    "message": "Paramètres des fonctions",
+    "description": "Titre de la section des fonctions"
+  },
+  "quickActions": {
+    "message": "Actions rapides",
+    "description": "Titre de la section des actions rapides"
+  }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bing Tools</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- 头部 -->
+    <header class="popup-header">
+      <div class="logo-section">
+        <img src="../../assets/icons/icon32.png" alt="Bing Tools" class="logo">
+        <div class="title-section">
+          <h1 data-i18n="extName">Bing Tools</h1>
+          <span class="version">v1.0.0</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="popup-content">
+      <!-- 功能开关区 -->
+      <section class="section">
+        <h2 data-i18n="features">功能开关</h2>
+        
+        <div class="setting-item">
+          <div class="setting-info">
+            <span class="setting-name" data-i18n="fullscreenFeature">全屏模式</span>
+            <span class="setting-desc" data-i18n="fullscreenDesc">在页面显示背景全屏按钮</span>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="fullscreen-toggle">
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+
+        <div class="setting-item">
+          <div class="setting-info">
+            <span class="setting-name" data-i18n="downloadFeature">下载功能</span>
+            <span class="setting-desc" data-i18n="downloadDesc">在页面显示图片下载按钮</span>
+          </div>
+          <label class="toggle-switch">
+            <input type="checkbox" id="download-toggle" checked>
+            <span class="toggle-slider"></span>
+          </label>
+        </div>
+      </section>
+
+      <!-- 快捷操作区 -->
+      <section class="section">
+        <h2 data-i18n="quickActions">快捷操作</h2>
+        <div class="action-buttons">
+          <button id="refresh-page" class="btn btn-primary" data-i18n="refreshPage">
+            刷新页面
+          </button>
+        </div>
+      </section>
+
+      <!-- 使用提示 -->
+      <section class="section tips-section">
+        <h2>使用提示</h2>
+        <ul class="tips-list">
+          <li>在Bing页面左下角点击按钮切换全屏</li>
+          <li>在Bing页面右上角点击按钮下载图片</li>
+          <li>右键下载按钮可打开设置菜单</li>
+          <li>按ESC键可退出全屏模式</li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- 底部 -->
+    <footer class="popup-footer">
+      <span class="copyright">© 2026 Bing Tools</span>
+      <a href="#" id="github-link" target="_blank">GitHub</a>
+    </footer>
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

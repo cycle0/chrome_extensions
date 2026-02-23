@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <!-- 温暖渐变背景 - 日出橙黄 -->
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffecd2;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#fcb69f;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#ff9a76;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff7e5f;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 柔和山脉渐变 -->
+    <linearGradient id="softMountain1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a8e6cf;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#7fcdbb;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <linearGradient id="softMountain2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#88d8b0;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#5ab88a;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <linearGradient id="softMountain3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6bc5a0;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#4a9e7a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 温暖太阳 -->
+    <radialGradient id="warmSun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff5e6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffe4b5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffd699;stop-opacity:0.9" />
+    </radialGradient>
+    
+    <!-- 柔和阴影 -->
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="1" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- 水彩质感滤镜 -->
+    <filter id="watercolor">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  
+  <!-- 圆角背景 -->
+  <rect x="4" y="4" width="120" height="120" rx="28" ry="28" fill="url(#warmBg)" />
+  
+  <!-- 手绘风格太阳 - 略带不规则 -->
+  <circle cx="88" cy="32" r="16" fill="url(#warmSun)" filter="url(#softShadow)">
+    <animate attributeName="r" values="16;17;16" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 太阳光晕线条 - 手绘感 -->
+  <g stroke="#ffe4b5" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="88" y1="8" x2="88" y2="14" />
+    <line x1="88" y1="50" x2="88" y2="56" />
+    <line x1="64" y1="32" x2="70" y2="32" />
+    <line x1="106" y1="32" x2="112" y2="32" />
+    <line x1="71" y1="15" x2="75" y2="19" />
+    <line x1="101" y1="45" x2="105" y2="49" />
+    <line x1="71" y1="49" x2="75" y2="45" />
+    <line x1="101" y1="19" x2="105" y2="15" />
+  </g>
+  
+  <!-- 远山 - 柔和波浪形，底部28px圆角 -->
+  <path d="M 4 85 Q 20 70 35 75 T 60 70 Q 75 65 90 72 T 124 80 L 124 96 Q 124 124 96 124 L 32 124 Q 4 124 4 96 Z" 
+        fill="url(#softMountain1)" filter="url(#watercolor)" />
+  
+  <!-- 中山 - 更柔和的曲线，底部28px圆角 -->
+  <path d="M 4 98 Q 25 82 45 88 T 80 85 Q 100 80 124 90 L 124 96 Q 124 124 96 124 L 32 124 Q 4 124 4 96 Z" 
+        fill="url(#softMountain2)" filter="url(#watercolor)" />
+  
+  <!-- 近山 - 最柔和的曲线，手绘感，底部28px圆角 -->
+  <path d="M 4 110 Q 30 95 55 102 T 95 98 Q 110 95 124 102 L 124 96 Q 124 124 96 124 L 32 124 Q 4 124 4 96 Z" 
+        fill="url(#softMountain3)" filter="url(#watercolor)" />
+  
+  <!-- 下载按钮 - 柔和圆形，手绘风格 -->
+  <g transform="translate(92, 92)" filter="url(#softShadow)">
+    <!-- 外圈 - 温暖米色 -->
+    <circle cx="0" cy="0" r="20" fill="#fff8f0" />
+    
+    <!-- 内圈装饰 -->
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#ff9a76" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.5"/>
+    
+    <!-- 向下箭头 - 手绘风格 -->
+    <g stroke="#e07b5f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- 箭杆 - 略带弯曲 -->
+      <path d="M 0 -8 Q 0.5 -2 0 4" />
+      <!-- 箭头 -->
+      <path d="M -6 2 L 0 10 L 6 2" />
+    </g>
+    
+    <!-- 底部横线 -->
+    <line x1="-7" y1="12" x2="7" y2="12" stroke="#e07b5f" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+  
+  <!-- 装饰性小点 - 增加手绘感 -->
+  <circle cx="20" cy="30" r="2" fill="#ffd699" opacity="0.6" />
+  <circle cx="30" cy="25" r="1.5" fill="#ffd699" opacity="0.4" />
+  <circle cx="15" cy="40" r="1" fill="#ffd699" opacity="0.5" />
+</svg>
